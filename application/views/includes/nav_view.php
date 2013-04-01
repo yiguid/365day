@@ -4,7 +4,7 @@
 			
 			<?=anchor('', '<img width="57" height="57" src="'.base_url('resource/img/plusplus_03.png').'">', 'id="logo_img"') ?>
 			<!--<?=anchor('', 'Jia2社团网', 'id="logo_img"') ?>-->
-			<?=anchor('', '首页', '') ?><?=anchor('personal', '个人主页', '') . anchor('friends', '好朋友', '')?>
+			<?=anchor('', '首页', '') ?><?=anchor('personal', '个人主页', '') . anchor('friend', '好朋友', '')?>
 		</div>
 		<span class="search left">
 				<?=form_open('search','id="searchform"') ?>
