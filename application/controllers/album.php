@@ -1,5 +1,5 @@
 <?php
-	class Album extends MY_Controller {
+/*	class Album extends MY_Controller {
 		function __construct() {
 			parent::__construct();
 			$this->load->model('Album_model');

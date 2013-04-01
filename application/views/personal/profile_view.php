@@ -3,8 +3,8 @@
 	<h3>&nbsp;<?=$info['name'] ?>&nbsp;&nbsp;</h3>
 	<p><span class="profile_info">位置&nbsp;<a><?=$info['province'][0]['name']?></a></span>|
 		<span class="profile_info">在&nbsp;<a><?=$info['school'][0]['name']?></a></span>|
-		<span class="profile_info"><?=anchor('album/'.$info['id'], '相册') ?></span>|
-		<span class="profile_info"><?=anchor('blog/'.$info['id'], '日志') ?></span>|
+		<!--<span class="profile_info"><?=anchor('album/'.$info['id'], '相册') ?></span>|
+		<span class="profile_info"><?=anchor('blog/'.$info['id'], '日志') ?></span>|-->
 		<span class="profile_info"><a href="#?w=500" rel="popup4" class="inline">更多资料</a></span></p>
 		<? if($this->session->userdata('id') != $info['id'] ): ?>
 			<? if(in_array($this->session->userdata('id'), $followers)): ?>

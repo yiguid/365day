@@ -1,5 +1,5 @@
 <?php
-	class Gossip extends MY_Controller {
+/*	class Gossip extends MY_Controller {
 		public $jiadb;
 		function __construct() {
 			parent::__construct();

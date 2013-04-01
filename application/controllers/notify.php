@@ -38,7 +38,7 @@
 					break;
 				case 'request':
 					$data['title'] = '请求';
-					$this->_request();
+					//$this->_request();
 					$data['js'] = 'personal/request.js';
 					$data['requests'] = $this->_request();
 					$this->load->view('includes/template_view', $data);

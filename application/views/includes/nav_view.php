@@ -4,7 +4,7 @@
 			
 			<?=anchor('', '<img width="57" height="57" src="'.base_url('resource/img/plusplus_03.png').'">', 'id="logo_img"') ?>
 			<!--<?=anchor('', 'Jia2社团网', 'id="logo_img"') ?>-->
-			<?=anchor('', '首页', '') ?><?=anchor('personal', '个人主页', '') . anchor('corporation', '社团之家', '')?>
+			<?=anchor('', '首页', '') ?><?=anchor('personal', '个人主页', '') . anchor('friends', '好朋友', '')?>
 		</div>
 		<span class="search left">
 				<?=form_open('search','id="searchform"') ?>
@@ -12,7 +12,7 @@
 				<?=form_hidden('user', 1) ?>
 				<?=form_hidden('corporation', 1) ?>
 				<?=form_hidden('activity', 1) ?>
-				<?=form_input(array('id' => 'nav_search_content', 'maxlength' => 50, 'class' => 'keywords', 'name' => 'keywords', 'placeholder' => '社团/个人/活动')) ?>
+				<?=form_input(array('id' => 'nav_search_content', 'maxlength' => 50, 'class' => 'keywords', 'name' => 'keywords', 'placeholder' => '新鲜事/个人')) ?>
 				<?=form_submit('submit', '', 'class="button" id="nav_search_submit"') ?>
 	            <?=form_close() ?>
 			</span>

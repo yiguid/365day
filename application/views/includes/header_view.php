@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <META HTTP-EQUIV="pragma" CONTENT="no-cache">
-        <title><?=(empty($title) ? '未定义标题' : $title) . ' | 加加社团' ?></title>
+        <title><?=(empty($title) ? '未定义标题' : $title) . ' | 365Day' ?></title>
         <link rel="stylesheet" type="text/css" href="<?=base_url('resource/css/home.css') ?>" />
         <link rel="stylesheet" type="text/css" href="<?=base_url('resource/css/main_content.css') ?>" />
 	    <script type="text/javascript" src="<?=base_url('resource/js/jquery.js') ?>"></script>

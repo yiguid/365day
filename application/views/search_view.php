@@ -31,6 +31,7 @@ $(function(){
 			<input type="checkbox" name="user" id="check_user" value="1" class="chbox" <?=($_POST['user'] == 1) ? 'checked="checked"' : '' ?>/>
 		</span>
 		<span class="Checkitem">用户</span>
+		<!--
 		<span class="CheckboxWrapper <?=($_POST['corporation'] == 1) ? 'Checked' : 'Checkbox' ?>">
 			<input type="checkbox" name="corporation" id="check_corporation" value="1" class="chbox" <?=($_POST['corporation'] == 1) ? 'checked="checked"' : '' ?>/>
 		</span>
@@ -39,6 +40,7 @@ $(function(){
 			<input type="checkbox" name="activity" id="check_activity" value="1" class="chbox" <?=($_POST['activity'] == 1) ? 'checked="checked"' : '' ?>/>
 		</span>
 		<span class="Checkitem">活动</span>
+		-->
 	</p>
 		<?=form_close() ?>
 	<div class="search_item">
@@ -67,6 +69,7 @@ $(function(){
 			<? endif?>
 		</ul>
 		<? endif ?>
+		<!--
 		<? if(isset($corporation_result)): ?>
 		<h4>社团 <span><?=$corporation_rows?>条结果</span></h4>
 		<ul id="corporation-result">
@@ -98,5 +101,5 @@ $(function(){
 			<? endforeach?>
 			<? endif?>
 		</ul>
-		<? endif ?>
+		<? endif ?>-->
 	</div>

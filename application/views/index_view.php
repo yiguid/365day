@@ -36,11 +36,11 @@
 <div class="post_main">
 				<div class="search_item"><ul>
 					<li class="sd01" id="po1">
-						<a href="#" id="active">好友动态</a>
+						<a href="" id="active">好友动态</a>
 					</li>
-					<li class="sd02" id="po2">
+					<!--<li class="sd02" id="po2">
 						<a href="#">社团动态</a>
-					</li>
+					</li>-->
 				</ul></div>
 	</div>
 	<div id="feeds_container" class="feeds">
@@ -49,11 +49,12 @@
 			<div class="loading"><img src="<?=base_url('resource/img/loading.gif') ?>"></img></div>
 			<?=form_button('request_more', '加载更多', 'page="1" po_type="personal" class="pub_button"') ?>
 		</ul>
-			
+		<!--	
 		<ul id="feed_2" class="hidden">
 			<?=$this->load->view('post/co_posts_view') ?>
 			<div class="loading"><img src="<?=base_url('resource/img/loading.gif') ?>"></img></div>
 			<?=form_button('request_more', '加载更多', 'page="1" po_type="activity" class="pub_button"') ?>
 		</ul>
+		-->
 	</div>
 </div>

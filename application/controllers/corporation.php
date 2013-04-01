@@ -1,5 +1,5 @@
 <?php
-	class Corporation extends MY_Controller {
+/*	class Corporation extends MY_Controller {
 		public $jiadb;
 		function __construct() {
 			parent::__construct();
