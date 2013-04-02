@@ -15,8 +15,8 @@
 |
 */
 
-$config['base_url'] = 'http://jia2.localhost/';
-$config['site_url']	= 'http://jia2.localhost/';
+$config['base_url'] = 'http://localhost/365day/';
+$config['site_url']	= 'http://localhost/365day/';
 
 
 /*
